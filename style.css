@@ -510,6 +510,7 @@ nav {
    ===================================================== */
 .divider {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 1.5rem;
   padding: 2.5rem 4rem;
@@ -534,7 +535,6 @@ nav {
 
 .tech-scroll {
   display: flex;
-  flex: 1;
   gap: 2.5rem;
   align-items: center;
   overflow: hidden;
@@ -551,6 +551,11 @@ nav {
 }
 
 .tech-item:hover { color: var(--ink); }
+
+@media (max-width: 900px) {
+  .divider { display: none;}
+  
+}
 
 
 /* =====================================================
@@ -1177,6 +1182,7 @@ footer a:hover { color: var(--red); }
   .stat-card { padding: 1.2rem 1.4rem; }
   .stat-num { font-size: 2.2rem; min-width: 60px; }
 
+  .scroll-indicator { bottom:-1rem;padding: 10px; }
   /* Divider */
   .divider { padding: 2rem 1.5rem; }
   .tech-scroll { gap: 1.5rem; }
