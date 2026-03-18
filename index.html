@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Akshan Dhyani — Frontend Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- CURSOR -->
+<div id="c-dot"></div>
+<div id="c-ring"></div>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#skills"     class="mm-link">Skills</a>
+  <a href="#projects"   class="mm-link">Projects</a>
+  <a href="#experience" class="mm-link">Experience</a>
+  <a href="#contact"    class="mm-link">Contact</a>
+  <a href="https://mail.google.com/mail/?view=cm&to=akshandhyani02@gmail.com" target="_blank"
+     style="font-size:0.85rem;color:var(--red);font-family:'Outfit',sans-serif;letter-spacing:0.1em;text-transform:uppercase;font-weight:600">
+    Hire Me →
+  </a>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">Akshan<span class="logo-dot"></span></div>
+  <ul class="nav-links">
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="https://mail.google.com/mail/?view=cm&to=akshandhyani02@gmail.com" target="_blank" class="nav-hire">Hire Me</a>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg-num">AD</div>
+
+  <div class="hero-left">
+    <div class="hero-tag"><span class="hero-tag-line"></span>BCA Student · MERN Stack</div>
+    <h1 class="hero-name">Frontend<em>Developer.</em></h1>
+    <div class="hero-role">Dehradun, India</div>
+    <p class="hero-desc">
+      Hi, I'm <strong>Akshan Dhyani</strong> — turning Figma designs into pixel-perfect,
+      fast, and accessible web apps using React, Tailwind, and Node.js.
+    </p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn-primary">View Projects →</a>
+      <a href="#contact"  class="btn-outline">Let's Talk</a>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <div class="stat-card">
+      <div class="stat-num">3+</div>
+      <div>
+        <div class="stat-info-label">Live Projects</div>
+        <div class="stat-info-sub">Real-world apps shipped to production</div>
+      </div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">1</div>
+      <div>
+        <div class="stat-info-label">Internship</div>
+        <div class="stat-info-sub">Frontend Dev · Codeveda Technologies</div>
+      </div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num" style="font-size:1.6rem;min-width:80px;padding-top:0.3rem">MERN</div>
+      <div>
+        <div class="stat-info-label">Full Stack</div>
+        <div class="stat-info-sub">MongoDB · Express · React · Node</div>
+      </div>
+    </div>
+    <div class="availability-pill">
+      <span class="avail-dot"></span>
+      Open to opportunities
+    </div>
+  </div>
+
+  <div class="scroll-indicator">
+    <div class="scroll-line"></div>
+    Scroll
+  </div>
+</section>
+
+<!-- TECH DIVIDER -->
+<div class="divider">
+  <span class="divider-text">Stack</span>
+  <div class="divider-line"></div>
+  <div class="tech-scroll">
+    <span class="tech-item">React.js</span>
+    <span class="tech-item">Node.js</span>
+    <span class="tech-item">MongoDB</span>
+    <span class="tech-item">Tailwind CSS</span>
+    <span class="tech-item">Express.js</span>
+    <span class="tech-item">Figma</span>
+    <span class="tech-item">Git</span>
+    <span class="tech-item">Vercel</span>
+  </div>
+</div>
+
+<!-- SKILLS -->
+<section class="section section-alt" id="skills">
+  <div class="section-header reveal">
+    <div class="section-num">01</div>
+    <div>
+      <div class="section-title">What I <span>build with</span></div>
+      <p class="section-sub">A full MERN-stack toolkit — from responsive UIs to REST APIs and databases.</p>
+    </div>
+  </div>
+  <div class="skills-grid reveal">
+    <div class="skill-block">
+      <div class="skill-block-title">Frontend</div>
+      <div class="chips">
+        <span class="chip">HTML5</span>
+        <span class="chip">CSS3</span>
+        <span class="chip">JavaScript ES6+</span>
+        <span class="chip">React.js</span>
+        <span class="chip">Tailwind CSS</span>
+        <span class="chip">Bootstrap</span>
+      </div>
+    </div>
+    <div class="skill-block">
+      <div class="skill-block-title">Backend &amp; DB</div>
+      <div class="chips">
+        <span class="chip">Node.js</span>
+        <span class="chip">Express.js</span>
+        <span class="chip">MongoDB</span>
+        <span class="chip">REST APIs</span>
+      </div>
+    </div>
+    <div class="skill-block">
+      <div class="skill-block-title">Tools &amp; Design</div>
+      <div class="chips">
+        <span class="chip">Git</span>
+        <span class="chip">GitHub</span>
+        <span class="chip">VS Code</span>
+        <span class="chip">Vercel</span>
+        <span class="chip">Figma</span>
+      </div>
+    </div>
+    <div class="skill-block">
+      <div class="skill-block-title">Languages</div>
+      <div class="chips">
+        <span class="chip">C</span>
+        <span class="chip">Java</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section" id="projects">
+  <div class="section-header reveal">
+    <div class="section-num">02</div>
+    <div>
+      <div class="section-title">Projects <span>I've shipped</span></div>
+      <p class="section-sub">Real-world apps with live demos — built to solve actual problems.</p>
+    </div>
+  </div>
+  <div class="projects-list reveal">
+
+    <div class="proj">
+      <div class="proj-emoji">💊</div>
+      <div class="proj-body">
+        <div class="proj-meta">
+          <div class="proj-title">Medilog — Medicine Tracker</div>
+          <span class="wip">In Progress</span>
+        </div>
+        <p class="proj-desc">Full-stack MERN app to track medicine stock and monitor expiry dates. Built REST APIs with Node/Express, integrated MongoDB, and designed the UI in Figma.</p>
+        <div class="proj-tags">
+          <span class="ptag">React</span>
+          <span class="ptag">Node.js</span>
+          <span class="ptag">Express</span>
+          <span class="ptag">MongoDB</span>
+          <span class="ptag">Tailwind</span>
+        </div>
+      </div>
+      <div class="proj-links">
+        <a href="https://github.com/akshandhyani789/MediLog" target="_blank" class="plink">GitHub ↗</a>
+      </div>
+    </div>
+
+    <div class="proj">
+      <div class="proj-emoji">🌿</div>
+      <div class="proj-body">
+        <div class="proj-meta">
+          <div class="proj-title">MoodCraft — Mood &amp; Stress Tracker</div>
+        </div>
+        <p class="proj-desc">Daily mood tracker with interactive breathing exercises. Features smooth animations, mobile-first layout, and guided stress-relief flows.</p>
+        <div class="proj-tags">
+          <span class="ptag">HTML</span>
+          <span class="ptag">CSS</span>
+          <span class="ptag">JavaScript</span>
+        </div>
+      </div>
+      <div class="proj-links">
+        <a href="https://akshandhyani789.github.io/moodcraft-webapp" target="_blank" class="plink">Live ↗</a>
+        <a href="https://github.com/akshandhyani789/moodcraft-webapp" target="_blank" class="plink">GitHub ↗</a>
+      </div>
+    </div>
+
+    <div class="proj">
+      <div class="proj-emoji">🔍</div>
+      <div class="proj-body">
+        <div class="proj-meta">
+          <div class="proj-title">GitHub Profile Finder</div>
+        </div>
+        <p class="proj-desc">Real-time GitHub user search using the REST API. Displays profile stats, repos, and followers. Includes robust error handling for invalid usernames.</p>
+        <div class="proj-tags">
+          <span class="ptag">React</span>
+          <span class="ptag">GitHub API</span>
+          <span class="ptag">Tailwind</span>
+        </div>
+      </div>
+      <div class="proj-links">
+        <a href="https://github-user-search-reactjs-3571.vercel.app" target="_blank" class="plink">Live ↗</a>
+        <a href="https://github.com/akshandhyani789/GithubUserSearch-Reactjs/" target="_blank" class="plink">GitHub ↗</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="section section-alt" id="experience">
+  <div class="section-header reveal">
+    <div class="section-num">03</div>
+    <div>
+      <div class="section-title">Where I've <span>worked &amp; studied</span></div>
+    </div>
+  </div>
+
+  <div class="exp-grid reveal">
+    <div class="exp-left">
+      <div class="exp-label">Experience</div>
+      <div class="exp-company">Codeveda<br>Technologies</div>
+      <div class="exp-role-title">Frontend Development Intern</div>
+      <span class="exp-date">Dec 2025 – Jan 2026</span>
+    </div>
+    <div class="exp-right">
+      <ul class="exp-bullets">
+        <li>
+          <span class="bullet-num">01</span>
+          <span class="bullet-text">Built and optimized reusable frontend components with React and Tailwind CSS, improving UI consistency across multiple screens.</span>
+        </li>
+        <li>
+          <span class="bullet-num">02</span>
+          <span class="bullet-text">Converted Figma design mockups into responsive, pixel-accurate web pages.</span>
+        </li>
+        <li>
+          <span class="bullet-num">03</span>
+          <span class="bullet-text">Collaborated with team members using Git and GitHub for version control and code reviews.</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="edu-row reveal">
+    <div class="edu-card">
+      <div class="edu-tag">Education</div>
+      <div class="edu-degree">Bachelor of Computer Applications (BCA)</div>
+      <div class="edu-school">Dev Bhoomi Uttarakhand University, Dehradun</div>
+      <div class="edu-year">Aug 2024 – May 2027</div>
+    </div>
+    <div class="edu-card">
+      <div class="edu-tag">Education</div>
+      <div class="edu-degree">Schooling</div>
+      <div class="edu-school">Shri Guru Ram Rai Inter College, Bhauwala, Dehradun</div>
+      <div class="edu-year"></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+  <div class="contact-left reveal-left">
+    <div class="contact-eyebrow">Get In Touch</div>
+    <div class="contact-title">Let's build<br>something<br><em>great.</em></div>
+    <p class="contact-desc">
+      Actively looking for Frontend or Full-Stack internship opportunities.
+      Whether you have a project, a role, or just want to say hi — my inbox is always open.
+    </p>
+    <a href="https://mail.google.com/mail/?view=cm&to=akshandhyani02@gmail.com" target="_blank" class="contact-btn">Send an Email ✉</a>
+  </div>
+  <div class="contact-right reveal">
+    <a href="https://linkedin.com" target="_blank" class="contact-link">
+      <div>
+        <div class="cl-label">LinkedIn</div>
+        <div class="cl-val">Connect with me</div>
+      </div>
+      <span class="cl-arrow">→</span>
+    </a>
+    <a href="https://github.com/akshandhyani789" target="_blank" class="contact-link">
+      <div>
+        <div class="cl-label">GitHub</div>
+        <div class="cl-val">github.com/akshandhyani789</div>
+      </div>
+      <span class="cl-arrow">→</span>
+    </a>
+    <a href="./Assets/AkshanDhyaniResume.pdf" download class="dl-btn">
+      ↓ Download Resume
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span>© 2026 Akshan Dhyani — Dehradun, India</span>
+  <span>Designed &amp; Built by <a href="#">Akshan</a></span>
+</footer>
+
+
+<script src="script.js">
+</script>
+
+</body>
+</html>
